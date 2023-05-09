@@ -1,19 +1,51 @@
-import React from "react"
+import React ,{useState} from "react"
+import { Link } from "react-scroll";
 import {AiOutlineMenu,AiOutlineClose} from 'react-icons/ai'
-import {FaGithub} from 'react-icons/fa'
 
 export default function Navbar(){
+
+    const [menu, setMenu] = useState(false);
+
+    const handleMenu = () => {
+      setMenu(!menu);
+    };
+
     return(
-        <nav className=" bg-zinc-50 shadow-md h-14 flex justify-end items-center px-3">
-            <ul className="hidden lg:flex space-x-5 pt-5 pr-3 justify-end">
-                <li><a href="#project">Home</a></li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>         
+        <nav className="bg-zinc-100 shadow-md h-14 flex justify-end items-center px-3 py-8 sticky top-0 z-50">
+            <ul className="hidden lg:flex space-x-5 pt-5 pr-3 pb-5 font-bold justify-end">
+                <li className="hover:cursor-pointer">
+                    <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+                </li>
+                <li className="hover:cursor-pointer">
+                    <Link to="about" spy={true} smooth={true} offset={-60} duration={500}>About</Link>
+                </li>
+                <li className="hover:cursor-pointer">
+                    <Link to="projects" spy={true} smooth={true} offset={-60} duration={500}>Projects</Link>
+                </li>
+                <li className="hover:cursor-pointer">
+                    <Link to="contact" spy={true} smooth={true} offset={-60} duration={500}>Contact</Link>
+                </li>        
             </ul> 
-            <div className="flex lg:hidden">
-                <button><AiOutlineMenu size={20} /></button>
-            </div> 
+            
+            <div onClick={handleMenu} className="flex lg:hidden">
+                <button className="z-10">{menu ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25} />}</button>
+            </div>
+
+            <ul className={menu ? 'block lg:hidden fixed text-center items-center left-0 pt-20 top-0 w-[100%] h-full bg-zinc-100  ease-in-out duration-700' : 'w-[100%] top-0 bottom-0 text-center items-center ease-in-out duration-700 fixed left-[-100%]'}>
+                <li className="hover:cursor-pointer p-7 text-2xl">
+                    <Link to="hero" spy={true} smooth={true} offset={-60} duration={700} onClick={handleMenu}>HOME</Link>
+                </li>
+                <li className="hover:cursor-pointer p-7 text-2xl">
+                    <Link to="about" spy={true} smooth={true} offset={-60} duration={700} onClick={handleMenu}>ABOUT</Link>
+                </li>
+                <li className="hover:cursor-pointer p-7 text-2xl">
+                    <Link to="projects" spy={true} smooth={true} offset={-60} duration={700} onClick={handleMenu}>PROJECTS</Link>
+                </li>
+                <li className="hover:cursor-pointer p-7 text-2xl">
+                    <Link to="contact" spy={true} smooth={true} offset={-60} duration={700} onClick={handleMenu}>CONTACT</Link>
+                </li>
+            </ul>
+
         </nav>
     )
 }
