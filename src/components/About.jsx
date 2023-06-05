@@ -1,5 +1,4 @@
 import React from 'react';
-import aboutImg from '/assets/undraw.svg';
 
 export default function About() {
   return(
