@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        'love' : '#1b1725',
+        'love-50': '#18131f'
+      },
       fontFamily: {
         lato: ['Lato', 'sans-serif']
       }
