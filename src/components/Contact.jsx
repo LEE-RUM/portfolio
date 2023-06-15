@@ -2,7 +2,8 @@ import React from 'react';
 
 export default function Contact() {
    return (
-      <div className="flex flex-col mx-auto h-full mb-8 p-5" id='contact'>
+      <div className="flex flex-col mx-auto h-full mb-4 p-6" id='contact'>
+         <h1 className="text-white text-center text-3xl font-bold h-full underline decoration-purple-500 pb-5">Contact Me</h1>
          <div className="flex justify-center items-center">
             <form
                action="https://getform.io/f/(customSlugHere)"
@@ -29,9 +30,9 @@ export default function Contact() {
                />
                <button
                   type="button"
-                  className="text-center inline-block px-8 py-3 mb-5 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-700 to-purple-400 drop-shadow-md"
+                  className="text-center inline-block px-8 py-3 mb-5 w-max text-base font-bold rounded-md text-white bg-gradient-to-r from-purple-700 to-purple-400 drop-shadow-md"
                >
-                  Contact Me
+                  Send Message
                </button>
             </form>
          </div>
