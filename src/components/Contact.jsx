@@ -29,7 +29,7 @@ export default function Contact() {
                   className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none"
                />
                <button
-                  type="button"
+                  type="submit"
                   className="text-center inline-block px-8 py-3 mb-5 w-max text-base font-bold rounded-md text-white bg-gradient-to-r from-purple-700 to-purple-400 drop-shadow-md"
                >
                   Send Message
