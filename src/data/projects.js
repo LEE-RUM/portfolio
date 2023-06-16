@@ -22,6 +22,6 @@ export default [
     title: 'More to come',
     description: 'If you want to see more of my projects, take a look at my GitHub',
     image: 'vite.svg',
-    skills: ['etc', 'etc', 'etc']
+    skills: ['skill1', 'skill2', 'skill3']
   }
 ]
