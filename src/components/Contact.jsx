@@ -6,7 +6,7 @@ export default function Contact() {
          <h1 className="text-white text-center text-3xl font-bold h-full underline decoration-purple-500 pb-5">Contact Me</h1>
          <div className="flex justify-center items-center">
             <form
-               action="https://getform.io/f/(customSlugHere)"
+               action="https://getform.io/f/0bd17c2a-9560-444f-92d0-3e10b6d64863"
                method="POST"
                className="flex flex-col w-full md:w-6/12 text-white"
             >
