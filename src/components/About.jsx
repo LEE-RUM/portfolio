@@ -4,7 +4,7 @@ const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'Java', 'Pytho
 
 export default function About() {
   return (
-    <section className="lg:px-32 px-14 py-16" id="about">
+    <section className="lg:px-32 px-10 py-16" id="about">
       <h1 className=" text-white text-center text-4xl font-bold h-full underline decoration-purple-500 pb-8">ABOUT ME</h1>
       <p className="text-center text-white font-semibold pb-6"> Here you can find some more information about me, my background and skills </p>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-white">
@@ -24,5 +24,5 @@ export default function About() {
         </div>
       </div>
     </section>
-  );
+  )
 }
