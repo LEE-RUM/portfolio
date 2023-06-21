@@ -21,7 +21,7 @@ export default function Hero() {
              Github <FaGithub size={20} className="ml-2" />
             </button>
           </a>
-          <a href="https://www.linkedin.com/feed/">
+          <a href="https://www.linkedin.com/in/lirim-m/">
             <button className="flex px-4 py-2 rounded-md bg-gray-800 hover:bg-gray-900 text-white">
               LinkedIn <FaLinkedin size={20} className="ml-2" />
             </button>

@@ -11,9 +11,9 @@ export default function Navbar(){
     };
 
     return(
-        <nav className="bg-love-50 shadow-md h-20 flex justify-end items-center px-3 py-8 sticky top-0 z-50 text-white">
+        <nav className="bg-love-50 shadow-md h-20 flex justify-end items-center px-6 py-8 sticky top-0 z-50 text-white">
             <li className="justify-start mr-auto list-none font-bold hover:cursor-pointer"> 
-            <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}>LIRIM.DEV</Link> 
+            <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}><span className="text-2xl font-bold">{`{LM}`}</span></Link> 
             </li>
             <ul className="hidden lg:flex space-x-5 pt-5 pr-3 pb-5 font-bold justify-end">
                 <li className="hover:cursor-pointer">
