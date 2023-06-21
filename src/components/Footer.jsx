@@ -8,9 +8,20 @@ export default function Footer(){
           <p className="text-sm">
             &copy; {new Date().getFullYear()} Lirim Mehmeti. All rights reserved.
           </p>
-          <span> <FaGithub size={25} /> </span> 
-          <span> <FaLinkedin size={25} /> </span> 
+
+          <span> 
+            <a href="https://github.com/LEE-RUM">
+              <FaGithub size={25} />
+            </a>
+          </span> 
+
+          <span> 
+            <a href="https://www.linkedin.com/in/lirim-m/">
+              <FaLinkedin size={25} />
+            </a> 
+          </span> 
+
         </div>
       </footer>
-    );
-  };
+    )
+  }
