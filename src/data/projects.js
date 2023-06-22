@@ -14,13 +14,13 @@ export default [
     description: 'Markdown notes app that can create, update and delete using react-mde.',
     image: 'assets/project-2.png',
     link: 'https://markdownotes-app.netlify.app/',
-    github: 'https://github.com/LEE-RUM',
+    github: 'https://github.com/LEE-RUM/Notes-App',
     skills: ['React', 'CSS', 'Firebase']
   },
   {
     id: 3,
     title: 'More to come',
-    description: 'If you want to see more of my projects, take a look at my GitHub',
+    description: 'If you want to see more of my projects, take a look at my GitHub.',
     image: 'assets/github-pic.webp',
     github:'https://github.com/LEE-RUM',
     skills: ['Git', 'Web Dev']
