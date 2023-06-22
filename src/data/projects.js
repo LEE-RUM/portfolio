@@ -21,7 +21,8 @@ export default [
     id: 3,
     title: 'More to come',
     description: 'If you want to see more of my projects, take a look at my GitHub',
-    image: 'vite.svg',
-    skills: ['skill1', 'skill2', 'skill3']
+    image: 'assets/github-pic.webp',
+    github:'https://github.com/LEE-RUM',
+    skills: ['Git', 'Web Dev']
   }
 ]
