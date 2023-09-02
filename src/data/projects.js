@@ -10,12 +10,12 @@ export default [
   },
   {
     id: 2,
-    title: 'Markdown Notes',
-    description: 'Markdown notes app that can create, update and delete using react-mde.',
-    image: 'assets/project-2.png',
+    title: 'Van Life',
+    description: 'Rent a van website that utilizes React Router',
+    image: 'assets/project-3.png',
     link: 'https://markdownotes-app.netlify.app/',
-    github: 'https://github.com/LEE-RUM/Notes-App',
-    skills: ['React', 'CSS', 'Firebase']
+    github: 'https://github.com/LEE-RUM/Van-Life',
+    skills: ['JavaScript', 'React', 'Tailwind']
   },
   {
     id: 3,
