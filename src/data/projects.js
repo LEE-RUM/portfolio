@@ -13,7 +13,7 @@ export default [
     title: 'Van Life',
     description: 'Rent a van website that utilizes React Router',
     image: 'assets/project-3.png',
-    link: 'https://markdownotes-app.netlify.app/',
+    link: 'https://lifeofthevan.netlify.app/',
     github: 'https://github.com/LEE-RUM/Van-Life',
     skills: ['JavaScript', 'React', 'Tailwind']
   },
