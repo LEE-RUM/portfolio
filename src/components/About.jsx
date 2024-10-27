@@ -1,6 +1,6 @@
 import React from 'react';
 
-const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind', 'Java', 'Python', 'Django', 'Bootstrap', 'Agile Development', 'Git'];
+const skills = ['HTML', 'CSS', 'JavaScript', 'Typescript', 'React', 'Tailwind', 'Java', 'Python', 'Django', 'Agile Development', 'Git'];
 
 export default function About() {
   return (

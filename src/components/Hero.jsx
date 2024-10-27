@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaLocationArrow, FaMapPin } from "react-icons/fa";
 import { AiFillMail } from "react-icons/ai";
 
 export default function Hero() {
@@ -13,7 +13,7 @@ export default function Hero() {
           Lirim Mehmeti.
         </p>
         <p className="text-2xl md:text-2xl lg:text-3xl text-white font-bold mb-6">
-          Software developer. <span className="text-gray-400">A developer who also teaches kids how to program!</span>
+          Software Engineer. <span className="text-gray-400">Based in Hartford, CT </span>
         </p>
         <div className="flex space-x-4 mt-6 mb-6">
           <a href="https://github.com/LEE-RUM">
